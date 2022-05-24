@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meteo</title>
+    <link rel="stylesheet" href="./css/my-meteo.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css' integrity='sha512-Fdq8QvrEd3TD4heN8gNTOl79sAZR7zsiHIDQbE5eEBxx8pPfb/yJHaBWxhoG7SNcQiBmrrUHlg5TiNX4ovt6Jg==' crossorigin='anonymous'/>
+</head>
+<body>
+    <section id="app">
+        <h1><span id="ville">Meaux</span>
+            <span class="tooltip">Tapez une autre ville</span>
+        </h1>
+        <i class="wi wi-day-rain"></i>
+        <h2>
+            <span id="temperature"></span> C°(<span id="conditions"></span>)
+        </h2>
+        <br>
+        <div id="details">
+            <h3>Détails</h3>
+            <div id="cont">
+                <span id="humidite"></span>
+                <br>
+                <span id="vent"></span>
+                <br>
+                <span id="visibilite"></span>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./script/my-meteo.js"></script>
+</body>
+</html>
